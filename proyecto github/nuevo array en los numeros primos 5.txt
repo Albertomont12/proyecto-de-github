@@ -1,0 +1,48 @@
+Algoritmo detarea
+Definir n,num, x, contador Como Entero
+Escribir "Ingresa un numero"
+234567 5
+
+
+leer n
+num = 0
+
+Mientras n > > Hacer
+
+num = num + 1
+
+X = 1
+
+contador = 0
+Mientras x <= num Hacer
+
+77
+si num mod x == 0 Entonces
+
+contador = contador + 1
+
+FinSi
+
+x = x + 1
+
+FinMientras
+si contador == 2 Entonces
+
+
+Escribir "El numero ",num," es primo"
+n = n − 1
+
+68 
+FinSi
+
+FinMientras
+ FinAlgoritmo
+
+Ingrese un numero: 3
+2 es primo 
+3 es primo
+5 es primo
+7 es primo
+11 es primo 
+13 es primo 
+17 es primo

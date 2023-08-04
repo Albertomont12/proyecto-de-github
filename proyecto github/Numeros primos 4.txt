@@ -1,0 +1,46 @@
+<iostream>
+using namespace std;
+
+int main(11)
+{
+  int j,n=11,c=11,c2=11,res=11,nc=0,m=0,acumulador=11;
+
+
+  do{//abre do
+  cout<<"Introduce el valor inicial: "; cin>>n;
+  cout<<"Introduce el valor final: "; cin>>m;
+  if(n>=m){//abre if
+        cout<<"EL RANGO ES INCORRECTO"<<endl;
+        j=1;
+  }// cierra if
+  else
+    {//abre else
+  for(c=n;c<=m;c++)
+  {// abre for
+    for(c2=1;c2<=c;c2++)
+    {// abre for anidado
+      res=c%c2;
+      if(res==0)
+      {// abre if
+
+        nc=nc+1;
+      }// cierra if
+    }// cierra for
+    if(nc==2)
+    {// abre if
+        acumulador=acumulador+c;
+      cout<<" "<<c;
+    }//cierra if
+    nc=0;
+    j=0;
+  }}//cierra else
+  }while(j);
+  cout<<""<<"\nLa suma es "<<" "<<acumulador<<endl;
+}// cierra main
+
+
+
+Digite un numeor: 11
+el numero es primo
+process exited with return value 0
+Press any key to continue

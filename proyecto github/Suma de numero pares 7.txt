@@ -1,0 +1,35 @@
+Algoritmo detarea
+Definir x, a, suma Como Entero
+x = 1
+a = 1
+suma = 0
+Mientras x <= 100 Hacer
+si a mod 2
+Escribir a
+suma
+==
+0 Entonces
+suma + a
+x = x + 1
+FinSi
+a = a + 1
+FinMientras
+Escribir "La suma de los primeros 100 numeros pares es: suma
+FinAlgoritmo
+***Ejecucion iniciada***
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+***Ejecucion finalizada***

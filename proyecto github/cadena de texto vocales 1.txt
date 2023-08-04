@@ -1,0 +1,10 @@
+inserte una frase:
+"¿Hola como estas?"
+
+o=2
+a=2
+ó=1
+e=1
+á=1
+
+vocales= 7

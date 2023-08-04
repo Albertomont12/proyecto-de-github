@@ -1,0 +1,7 @@
+inserte una frase:
+"¿Hola como estas?"
+
+
+En total hay 7 vocales y 7 consonantes:
+vocales= [o, a, ó, e, á]
+consonantes = [H, l, c, m, s, t, s]

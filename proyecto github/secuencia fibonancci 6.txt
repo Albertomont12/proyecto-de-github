@@ -1,0 +1,42 @@
+Algoritmo detarea
+3
+Definir n,a,b Como Entero
+4
+Escribir "Ingresa cuantos nuemros deseas generar"
+5 Leer n
+6 X = 1
+7 a = 0
+3
+b = 1
+Mientras x <= n Hacer
+si x mod 2 == 1 Entonces Escribir a
+1
+2
+a = a + b
+3
+SiNo
+4
+Escribir b
+5 91
+b = b + a
+6
+7
+3
+9
+FinSi
+X = X + 1
+FinMientras
+FinAlgoritmo
+
+
+ingresa cuantos numero vas a generar:8
+0
+1
+1
+2
+3
+5
+8
+13
+*** Ejecucion finalizada***
+0

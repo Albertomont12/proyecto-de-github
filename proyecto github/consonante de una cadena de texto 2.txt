@@ -1,0 +1,12 @@
+inserte una frase:
+"¿Hola como estas?"
+
+h=1
+l=1
+c=1
+m=1
+a=1
+t=1
+s=1
+consonantes=7
+
